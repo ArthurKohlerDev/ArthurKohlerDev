@@ -11,7 +11,7 @@ Meu foco é desenvolver sistemas de gestão, aplicações web e soluções que t
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](SEU_LINKEDIN_AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
 
 </div>
 
@@ -188,7 +188,7 @@ Tenho especial interesse em oportunidades envolvendo:
 Estou aberto a conexões, troca de conhecimento e oportunidades relacionadas a desenvolvimento de software.
 
 - 💻 GitHub: [ArthurKohlerDev](https://github.com/ArthurKohlerDev)
-- 💼 LinkedIn: [Arthur Bernardo Kohler](SEU_LINKEDIN_AQUI)
+- 💼 LinkedIn: [Arthur Bernardo Kohler](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
 
 ---
 
