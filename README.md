@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá, eu sou Arthur Bernardo Kohler
+# Olá, eu sou Arthur Bernardo Kohler
 
 ### Software Developer | C# • ASP.NET Core • Java • SQL
 
@@ -17,7 +17,7 @@ Meu foco é desenvolver sistemas de gestão, aplicações web e soluções que t
 
 ---
 
-## 👨‍💻 Sobre mim
+## Sobre mim
 
 Sou desenvolvedor de software com interesse especial no ecossistema **.NET**, desenvolvimento de sistemas corporativos e banco de dados.
 
@@ -25,7 +25,7 @@ Atualmente concilio minha formação em **Sistemas de Informação** com a atua�
 
 Essa experiência me permite enxergar o desenvolvimento de software além do código: entender processos, identificar problemas operacionais e transformar necessidades reais do negócio em soluções tecnológicas.
 
-### 🎯 Áreas de interesse
+### Áreas de interesse
 
 - Desenvolvimento Backend com **C# e ASP.NET Core**
 - Sistemas Web e aplicações corporativas
@@ -39,7 +39,7 @@ Essa experiência me permite enxergar o desenvolvimento de software além do có
 
 ---
 
-## 🏭 Experiência com Tecnologia no Setor Industrial
+##  Experiência com Tecnologia no Setor Industrial
 
 Atuo profissionalmente na área de **Tecnologia da Informação da MH Tinturaria**, inserido em um ambiente industrial onde tecnologia e processos produtivos precisam trabalhar de forma integrada.
 
@@ -56,7 +56,7 @@ Meu objetivo é unir cada vez mais **desenvolvimento de software, dados e conhec
 
 ---
 
-# 🛠️ Tecnologias
+# Tecnologias
 
 ## Backend
 
@@ -86,9 +86,9 @@ Meu objetivo é unir cada vez mais **desenvolvimento de software, dados e conhec
 
 ---
 
-# 🚀 Projetos em Destaque
+# Projetos em Destaque
 
-## 💼 Sistema ERP
+##  Sistema ERP
 
 [![Repository](https://img.shields.io/badge/Ver_Repositório-Sistema--ERP-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev/Sistema-ERP)
 
@@ -96,14 +96,14 @@ Sistema web desenvolvido com **ASP.NET Core** para centralizar operações de pe
 
 ### Principais recursos
 
-- 💰 Caixa / PDV
-- 📦 Controle de estoque
-- 🛒 Registro de vendas
-- 👥 Controle de usuários
-- 📊 Dashboard administrativo
-- 📋 Histórico de movimentações
-- 🎟️ Módulo de rifas
-- 📱 Interface responsiva
+-  Caixa / PDV
+-  Controle de estoque
+-  Registro de vendas
+-  Controle de usuários
+-  Dashboard administrativo
+-  Histórico de movimentações
+-  Módulo de rifas
+-  Interface responsiva
 
 ### Stack
 
@@ -113,21 +113,21 @@ Sistema web desenvolvido com **ASP.NET Core** para centralizar operações de pe
 
 ---
 
-## 🏭 FactoryVision
+##  FactoryVision
 
-> 🚧 **Projeto em planejamento**
+>  **Projeto em planejamento**
 
 Plataforma voltada para **gestão e monitoramento de produção industrial**, criada a partir da ideia de aplicar desenvolvimento de software a cenários reais da indústria.
 
 ### Objetivos do projeto
 
-- 📊 Dashboards de produção
-- 📈 Indicadores de desempenho
-- 🏭 Monitoramento de processos produtivos
-- 📋 Acompanhamento de ordens e operações
-- 🔎 Visualização centralizada de informações
-- 📉 Análise de produtividade
-- ⚠️ Identificação de desvios e gargalos
+-  Dashboards de produção
+-  Indicadores de desempenho
+-  Monitoramento de processos produtivos
+-  Acompanhamento de ordens e operações
+-  Visualização centralizada de informações
+-  Análise de produtividade
+-  Identificação de desvios e gargalos
 
 ### Stack planejada
 
@@ -144,7 +144,7 @@ O FactoryVision será utilizado também como projeto de estudo para aprofundamen
 
 ---
 
-# 📚 Atualmente estudando
+#  Atualmente estudando
 
 Tenho buscado aprofundar meus conhecimentos principalmente em:
 
@@ -161,7 +161,7 @@ Tenho buscado aprofundar meus conhecimentos principalmente em:
 
 ---
 
-# 📈 GitHub
+#  GitHub
 
 <div align="center">
 
@@ -173,7 +173,7 @@ Tenho buscado aprofundar meus conhecimentos principalmente em:
 
 ---
 
-# 🎯 Objetivo Profissional
+#  Objetivo Profissional
 
 Continuar evoluindo como desenvolvedor de software, aprofundando meus conhecimentos no ecossistema **Microsoft .NET** e participando do desenvolvimento de aplicações capazes de resolver problemas reais de negócio.
 
@@ -183,18 +183,18 @@ Tenho especial interesse em oportunidades envolvendo:
 
 ---
 
-# 📫 Contato
+#  Contato
 
 Estou aberto a conexões, troca de conhecimento e oportunidades relacionadas a desenvolvimento de software.
 
-- 💻 GitHub: [ArthurKohlerDev](https://github.com/ArthurKohlerDev)
-- 💼 LinkedIn: [Arthur Bernardo Kohler](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
+-  GitHub: [ArthurKohlerDev](https://github.com/ArthurKohlerDev)
+-  LinkedIn: [Arthur Bernardo Kohler](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
 
 ---
 
 <div align="center">
 
-### 💻 Software para resolver problemas reais.
+###  Software para resolver problemas reais.
 
 **Arthur Bernardo Kohler**
 
