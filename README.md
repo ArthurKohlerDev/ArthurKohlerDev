@@ -7,7 +7,7 @@
 Estudante de **Sistemas de Informação** e profissional de TI no setor industrial. Desenvolvo sistemas de gestão, aplicações web e desktop voltados a problemas reais de negócio.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurkohlerdev/)
 
 </div>
 
