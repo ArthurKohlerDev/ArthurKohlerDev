@@ -2,13 +2,9 @@
 
 # Olá, eu sou Arthur Bernardo Kohler
 
-### Software Developer | C# • ASP.NET Core • Java • SQL
+### Desenvolvedor de software | C# • .NET • ASP.NET Core • WPF • SQL
 
-Desenvolvedor de software e estudante de **Sistemas de Informação**, atuando profissionalmente com tecnologia no setor industrial.
-
-Meu foco é desenvolver sistemas de gestão, aplicações web e soluções que transformem processos de negócio em software eficiente, organizado e escalável.
-
-<br>
+Estudante de **Sistemas de Informação** e profissional de TI no setor industrial. Desenvolvo sistemas de gestão, aplicações web e desktop voltados a problemas reais de negócio.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-bernardo-kohler-8568262b5/)
@@ -19,65 +15,47 @@ Meu foco é desenvolver sistemas de gestão, aplicações web e soluções que t
 
 ## Sobre mim
 
-Sou desenvolvedor de software com interesse especial no ecossistema **.NET**, desenvolvimento de sistemas corporativos e banco de dados.
+Atuo na área de **Tecnologia da Informação da MH Tinturaria**. O contato com processos produtivos e necessidades dos usuários orienta meu interesse por sistemas corporativos, integração de dados e automação.
 
-Atualmente concilio minha formação em **Sistemas de Informação** com a atuação profissional em TI dentro do setor industrial.
+Meu foco técnico está no ecossistema **.NET**, em bancos de dados e na construção de software organizado, tanto para a web quanto para Windows.
 
-Essa experiência me permite enxergar o desenvolvimento de software além do código: entender processos, identificar problemas operacionais e transformar necessidades reais do negócio em soluções tecnológicas.
+## Projetos em destaque
 
-### Áreas de interesse
+### [Nexo Gestão](https://github.com/ArthurKohlerDev/Sistema-ERP)
 
-- Desenvolvimento Backend com **C# e ASP.NET Core**
-- Sistemas Web e aplicações corporativas
-- Sistemas ERP
-- Modelagem e integração com bancos de dados
-- Desenvolvimento de APIs
-- Arquitetura e organização de software
-- Automação de processos
-- Tecnologia aplicada à indústria
-- Dashboards e indicadores de produção
+Projeto fictício de portfólio para gestão comercial, com caixa/PDV, estoque e rifas. Desenvolvido em **ASP.NET Core (.NET 8)**, **Entity Framework Core**, **MySQL** e **HTML/CSS/JavaScript**. O repositório documenta as funcionalidades, a arquitetura e a execução local.
 
----
+### [Semáforo Inteligente](https://github.com/ArthurKohlerDev/semaforo)
 
-##  Experiência com Tecnologia no Setor Industrial
+Simulador web de dois semáforos sincronizados, com **gêmeo digital** e comunicação **MQTT via WebSocket**. O projeto reúne interface em HTML/CSS/JavaScript e lógica de controle do cruzamento.
 
-Atuo profissionalmente na área de **Tecnologia da Informação da MH Tinturaria**, inserido em um ambiente industrial onde tecnologia e processos produtivos precisam trabalhar de forma integrada.
+Além dos projetos públicos, trabalho com aplicações desktop em **C# e WPF** e com soluções para processos industriais.
 
-Essa experiência vem ampliando meu conhecimento sobre:
+## Tecnologias
 
-- Processos e sistemas utilizados no ambiente industrial
-- Necessidades reais de usuários e setores operacionais
-- Sistemas corporativos e gestão de informações
-- Banco de dados e integração de sistemas
-- Digitalização e melhoria de processos
-- Desenvolvimento de soluções orientadas a problemas reais
-
-Meu objetivo é unir cada vez mais **desenvolvimento de software, dados e conhecimento de processos industriais**.
-
----
-
-# Tecnologias
-
-## Backend
+**Backend e desktop**
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-## Frontend
+**Web e integração**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
 
-## Banco de Dados
+**Dados**
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Firebird](https://img.shields.io/badge/Firebird-EE4000?style=for-the-badge&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=database&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-## Ferramentas
+**Ferramentas**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -88,8 +66,6 @@ Meu objetivo é unir cada vez mais **desenvolvimento de software, dados e conhec
 
 <div align="center">
 
-###  Software para resolver problemas reais.
-
-**Arthur Bernardo Kohler**
+**Software para resolver problemas reais.**
 
 </div>
