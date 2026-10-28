@@ -1,0 +1,29 @@
+name: Atualizar dashboard privado
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+      - name: Gerar gráficos
+        run: python3 scripts/atualizar_dashboard.py
+        env:
+          DASHBOARD_PROFILE_TOKEN: ${{ secrets.DASHBOARD_PROFILE_TOKEN }}
+          DASHBOARD_REPOS_TOKEN: ${{ secrets.DASHBOARD_REPOS_TOKEN }}
+      - name: Publicar imagens e README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/github-contribuicoes.svg assets/github-linguagens.svg assets/github-streak.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: atualiza dashboard com estatísticas privadas"
+            git push
+          fi
