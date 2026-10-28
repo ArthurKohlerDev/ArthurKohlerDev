@@ -64,6 +64,20 @@ Além dos projetos públicos, trabalho com aplicações desktop em **C# e WPF** 
 
 ---
 
+## Atividade no GitHub
+
+<div align="center">
+
+  <img height="170" alt="Estatísticas de contribuições no GitHub" src="https://github-readme-stats.vercel.app/api?username=ArthurKohlerDev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9&icon_color=3FB950" />
+
+  <img height="170" alt="Linguagens mais utilizadas no GitHub" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurKohlerDev&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" />
+
+  <img width="80%" alt="Sequência de contribuições no GitHub" src="https://streak-stats.demolab.com?user=ArthurKohlerDev&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950&sideNums=3FB950&sideLabels=C9D1D9&dates=8B949E" />
+
+</div>
+
+---
+
 <div align="center">
 
 **Software para resolver problemas reais.**
