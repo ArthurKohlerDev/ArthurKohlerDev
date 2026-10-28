@@ -79,65 +79,78 @@ def label(x, y, value, size=15, color=TEXT, bold=False, anchor="middle"):
             f'font-size="{size}" text-anchor="{anchor}" {weight}>{escape(str(value))}</text>')
 
 
-def simple_card(title, labels):
-    parts = [xml_start(820, 170), label(32, 36, title, 18, GREEN, True, "start")]
-    for i, (big, small) in enumerate(labels):
-        x = 136 + i * 274
-        parts.extend([label(x, 102, big, 35, GREEN, True), label(x, 132, small, 13, MUTED)])
-        if i < len(labels) - 1:
-            parts.append(f'<line x1="{x+137}" y1="60" x2="{x+137}" y2="140" stroke="{BORDER}"/>')
-    return "".join(parts) + "</svg>\n"
-
-
-def yearly_card(annual, rolling):
+def stats_card(annual, rolling):
     total = sum(annual.values())
-    years = list(annual)[-3:]
-    parts = [xml_start(820, 238), label(32, 32, "Contribuições públicas + privadas", 18, GREEN, True, "start")]
-    for x, number, caption in [(215, total, f"Desde {START_YEAR}"),
-                                (610, rolling, "Últimos 12 meses")]:
-        parts.extend([label(x, 91, number, 33, GREEN, True), label(x, 115, caption, 13, MUTED)])
-    parts.append(f'<line x1="410" y1="56" x2="410" y2="120" stroke="{BORDER}"/>')
-    parts.append(f'<line x1="32" y1="139" x2="788" y2="139" stroke="{BORDER}"/>')
-    for idx, year in enumerate(years):
-        x = 137 + idx * 273
-        parts.extend([label(x, 188, annual[year], 27, GREEN, True), label(x, 214, str(year), 13, MUTED)])
+    parts = [xml_start(398, 184), label(20, 28, "Estatísticas do GitHub", 17, GREEN, True, "start")]
+    parts += [label(105, 93, total, 36, GREEN, True), label(105, 116, "Desde 2024", 12, MUTED),
+              label(297, 93, rolling, 36, GREEN, True),
+              label(297, 116, "Últimos 12 meses", 12, MUTED),
+              f'<line x1="199" y1="48" x2="199" y2="123" stroke="{BORDER}"/>',
+              f'<line x1="20" y1="137" x2="378" y2="137" stroke="{BORDER}"/>']
+    annual_text = "   |   ".join(f"{year}: {count}" for year, count in sorted(annual.items()))
+    parts.append(label(199, 164, annual_text, 12, MUTED))
     return "".join(parts) + "</svg>\n"
 
 
 def streaks(day_counts, today):
-    current_day = today
-    if day_counts.get(current_day.isoformat(), 0) == 0:
-        current_day -= timedelta(days=1)
+    current_end = today
+    if day_counts.get(current_end.isoformat(), 0) == 0:
+        current_end -= timedelta(days=1)
     current = 0
-    while day_counts.get(current_day.isoformat(), 0) > 0:
+    cursor = current_end
+    while day_counts.get(cursor.isoformat(), 0) > 0:
         current += 1
-        current_day -= timedelta(days=1)
-    best = 0
-    count = 0
+        cursor -= timedelta(days=1)
+    current_start = cursor + timedelta(days=1) if current else None
+    longest, count, longest_end = 0, 0, None
     cursor = date(START_YEAR, 1, 1)
     while cursor <= today:
         count = count + 1 if day_counts.get(cursor.isoformat(), 0) else 0
-        best = max(best, count)
+        if count > longest:
+            longest = count
+            longest_end = cursor
         cursor += timedelta(days=1)
-    return current, best
+    longest_start = longest_end - timedelta(days=longest-1) if longest_end else None
+    return current, longest, current_start, (current_end if current else None), longest_start, longest_end
+
+
+def date_range(start, end):
+    if not start or not end:
+        return "Sem sequência"
+    return f"{start:%d/%m} - {end:%d/%m}"
+
+
+def streak_card(total, current, longest, current_start, current_end, best_start, best_end):
+    parts = [xml_start(820, 224),
+             f'<line x1="277" y1="30" x2="277" y2="195" stroke="{BORDER}"/>',
+             f'<line x1="543" y1="30" x2="543" y2="195" stroke="{BORDER}"/>',
+             label(138, 99, total, 41, GREEN, True),
+             label(138, 130, "Total de contribuições", 15, TEXT),
+             label(138, 156, f"Desde {START_YEAR}", 12, MUTED),
+             f'<circle cx="410" cy="90" r="56" fill="none" stroke="{GREEN}" stroke-width="7"/>',
+             label(410, 103, current, 43, GREEN, True),
+             label(410, 181, "Sequência atual", 16, GREEN, True),
+             label(410, 204, date_range(current_start, current_end), 12, MUTED),
+             label(682, 99, longest, 41, GREEN, True),
+             label(682, 130, "Maior sequência", 15, TEXT),
+             label(682, 156, date_range(best_start, best_end), 12, MUTED)]
+    return "".join(parts) + "</svg>\n"
 
 
 def languages_svg(counter):
     total = sum(counter.values())
     if not total:
-        return xml_start(820, 100) + label(410, 62, "Sem dados de linguagens disponíveis", 18, MUTED) + "</svg>\n"
-    languages = counter.most_common(6)
-    height = 82 + len(languages) * 38
-    parts = [xml_start(820, height), label(32, 35, "Linguagens (projetos públicos + privados)", 18, GREEN, True, "start")]
-    for idx, (name, size) in enumerate(languages):
-        y = 75 + idx * 38
-        pct = size * 100 / total
-        parts.extend([label(32, y, name, 14, TEXT, True, "start"),
-                      f'<rect x="245" y="{y-13}" width="475" height="15" rx="5" fill="{BORDER}"/>',
-                      f'<rect x="245" y="{y-13}" width="{475*pct/100:.1f}" height="15" rx="5" fill="{GREEN}"/>',
-                      label(788, y, f"{pct:.1f}%", 14, TEXT)])
+        return xml_start(398, 184) + label(199, 93, "Sem dados de linguagens", 15, MUTED) + "</svg>\n"
+    top_languages = counter.most_common(5)
+    parts = [xml_start(398, 184), label(20, 28, "Linguagens mais usadas", 17, GREEN, True, "start")]
+    for idx, (name, size) in enumerate(top_languages):
+        y = 57 + idx * 26
+        pct = 100 * size / total
+        parts += [label(20, y, name, 11, TEXT, False, "start"),
+                  f'<rect x="147" y="{y-11}" width="176" height="12" rx="5" fill="{BORDER}"/>',
+                  f'<rect x="147" y="{y-11}" width="{176*pct/100:.1f}" height="12" rx="5" fill="{GREEN}"/>',
+                  label(379, y, f"{pct:.1f}%", 11, TEXT, False, "end")]
     return "".join(parts) + "</svg>\n"
-
 
 def main():
     today = datetime.now(TZ).date()
@@ -161,14 +174,14 @@ def main():
     rolling_start = datetime.combine(previous_year, time.min, TZ).astimezone(timezone.utc)
     rolling_total, _ = contributions(rolling_start, end)
     since_total = sum(annual.values())
-    current, longest = streaks(daily, today)
+    current, longest, current_start, current_end, best_start, best_end = streaks(daily, today)
     languages = repositories_languages()
     output = Path("assets")
     output.mkdir(exist_ok=True)
-    (output / "github-contribuicoes.svg").write_text(yearly_card(annual, rolling_total), encoding="utf-8")
-    (output / "github-streak.svg").write_text(simple_card("Sequência de contribuições", [
-        (since_total, "Contribuições totais"), (current, "Sequência atual (dias)"),
-        (longest, f"Recorde desde {START_YEAR} (dias)")]), encoding="utf-8")
+    (output / "github-contribuicoes.svg").write_text(stats_card(annual, rolling_total), encoding="utf-8")
+    (output / "github-streak.svg").write_text(streak_card(
+        since_total, current, longest, current_start, current_end, best_start, best_end
+    ), encoding="utf-8")
     (output / "github-linguagens.svg").write_text(languages_svg(languages), encoding="utf-8")
 
     # Só modifica o painel; deixa todas as outras seções do README intactas.
@@ -184,11 +197,10 @@ def main():
 
 <div align="center">
 
-  <img width="100%" alt="Contribuições públicas e privadas no GitHub" src="./assets/github-contribuicoes.svg" />
+  <img width="49%" alt="Estatísticas públicas e privadas do GitHub" src="./assets/github-contribuicoes.svg" />
+  <img width="49%" alt="Linguagens dos repositórios públicos e privados" src="./assets/github-linguagens.svg" />
 
-  <img width="100%" alt="Linguagens dos repositórios públicos e privados" src="./assets/github-linguagens.svg" />
-
-  <img width="100%" alt="Sequência de contribuições no GitHub" src="./assets/github-streak.svg" />
+  <img width="83%" alt="Sequência de contribuições no GitHub" src="./assets/github-streak.svg" />
 
 </div>
 '''

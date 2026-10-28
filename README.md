@@ -68,11 +68,10 @@ Além dos projetos públicos, trabalho com aplicações desktop em **C# e WPF** 
 
 <div align="center">
 
-  <img width="100%" alt="Contribuições públicas e privadas no GitHub" src="./assets/github-contribuicoes.svg" />
+  <img width="49%" alt="Estatísticas públicas e privadas do GitHub" src="./assets/github-contribuicoes.svg" />
+  <img width="49%" alt="Linguagens dos repositórios públicos e privados" src="./assets/github-linguagens.svg" />
 
-  <img width="100%" alt="Linguagens dos repositórios públicos e privados" src="./assets/github-linguagens.svg" />
-
-  <img width="100%" alt="Sequência de contribuições no GitHub" src="./assets/github-streak.svg" />
+  <img width="83%" alt="Sequência de contribuições no GitHub" src="./assets/github-streak.svg" />
 
 </div>
 

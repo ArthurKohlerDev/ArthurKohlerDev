@@ -1,6 +1,11 @@
 name: Atualizar dashboard privado
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/atualizar_dashboard.py'
+      - '.github/workflows/dashboard-privado.yml'
   schedule:
     - cron: '17 9 * * *'
 
