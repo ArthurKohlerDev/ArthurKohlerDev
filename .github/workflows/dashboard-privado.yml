@@ -7,7 +7,7 @@ on:
       - 'scripts/atualizar_dashboard.py'
       - '.github/workflows/dashboard-privado.yml'
   schedule:
-    - cron: '17 1,9,17 * * *'
+    - cron: '0 3,11,19 * * *'
 
 permissions:
   contents: write
