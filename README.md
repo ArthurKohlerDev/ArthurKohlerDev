@@ -1,8 +1,6 @@
 <div align="center">
 
-# Olá, eu sou Arthur Bernardo Kohler
-
-### Desenvolvedor de software | C# • .NET • ASP.NET Core • WPF • SQL
+<img src="./assets/arthur-kohler-banner.svg" width="100%" alt="Banner Arthur Kohler — desenvolvimento de software, sistemas corporativos, aplicações Windows e jogos 3D" />
 
 Estudante de **Sistemas de Informação** e profissional de TI no setor industrial. Desenvolvo sistemas de gestão, aplicações web e desktop voltados a problemas reais de negócio.
 
