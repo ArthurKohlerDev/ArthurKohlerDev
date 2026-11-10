@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Hack Brasil 2026 — Saúde e Bem-Estar</title>
+<desc id="desc">Banner de participação no Hack Brasil 2026, com visual escuro, detalhes em verde e ciano e coração com eletrocardiograma.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#051018"/><stop offset=".56" stop-color="#071421"/><stop offset="1" stop-color="#001f21"/></linearGradient>
+  <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#12f08a"/><stop offset="1" stop-color="#18c9ff"/></linearGradient>
+  <linearGradient id="heart" x1="0" x2="1"><stop stop-color="#063d37" stop-opacity=".55"/><stop offset="1" stop-color="#08354d" stop-opacity=".58"/></linearGradient>
+  <linearGradient id="bottom" x1="0" x2="1"><stop stop-color="#1462e3" stop-opacity=".7"/><stop offset=".55" stop-color="#00e4cd" stop-opacity=".55"/><stop offset="1" stop-color="#12f08a" stop-opacity=".7"/></linearGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#70e7ed" stroke-width=".45" opacity=".075"/></pattern>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#07bfe7" opacity=".45"/></pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="17"/></filter>
+</defs>
+<rect width="1200" height="400" fill="url(#bg)"/><rect width="1200" height="400" fill="url(#grid)"/>
+<circle cx="1000" cy="180" r="190" fill="#09cfb9" opacity=".075" filter="url(#soft)"/>
+<path d="M0 73 77 0h132M0 95 95 0" fill="none" stroke="#06db8e" stroke-width="1.6" opacity=".65"/>
+<path d="M1200 320 1138 400h-112M1200 303 1118 400" fill="none" stroke="#11d8e2" stroke-width="1.5" opacity=".4"/>
+<path d="M0 315C170 273 226 390 400 355S670 306 796 334S1030 388 1200 309" fill="none" stroke="url(#bottom)" stroke-width="2.2" opacity=".6"/>
+<path d="M0 345C170 305 270 390 432 371S668 327 802 353S1031 385 1200 330" fill="none" stroke="#087d9f" stroke-width="1" opacity=".6"/>
+<path d="M0 359C230 340 285 392 480 385S733 353 900 374S1082 389 1200 351" fill="none" stroke="#0be1b5" stroke-width=".8" opacity=".25"/>
+<rect x="12" y="234" width="100" height="72" fill="url(#dots)" opacity=".65"/>
+<rect x="1040" y="22" width="106" height="70" fill="url(#dots)" opacity=".6"/>
+<rect x="92" y="55" width="5" height="28" rx="2.5" fill="#2ffb99"/>
+<text x="113" y="76" fill="#e0e6f1" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="24" letter-spacing="4">PARTICIPANDO DO HACKATHON</text>
+<g transform="translate(89 124)" fill="none" stroke="#12e99b" stroke-width="13" stroke-linejoin="round" stroke-linecap="square"><path d="M42 7 8 36l34 29M94 7l34 29-34 29M80 0 56 72"/></g>
+<path d="M241 127v132" stroke="#a1b5bf" stroke-width="2" opacity=".8"/>
+<text x="263" y="183" fill="#f5f8fc" font-family="Arial,Helvetica,sans-serif" font-size="63" font-weight="800" letter-spacing="1">HACK BRASIL</text>
+<text x="264" y="270" fill="#19e89b" font-family="Arial,Helvetica,sans-serif" font-size="91" font-weight="800" letter-spacing="3">2026</text>
+<rect x="109" y="300" width="531" height="64" rx="32" fill="#051d26" stroke="url(#neon)" stroke-width="3"/>
+<path d="M160 341c-9-6-18-15-18-24 0-13 15-16 21-5 7-11 22-8 22 5 0 10-14 22-22 27" fill="none" stroke="#17e99b" stroke-width="3"/>
+<path d="M143 324h11l5-10 8 19 5-9h14" fill="none" stroke="#2bfdad" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="202" y="341" fill="#eef9fc" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" letter-spacing="1.3">SAÚDE &amp; BEM-ESTAR</text>
+<!-- right-side health-tech circuits -->
+<g fill="none" stroke="#0ac9c7" stroke-width="1.4" opacity=".66"><path d="M665 183h66l34-35h58"/><path d="M1040 184h100l32-22"/><path d="M753 281h-54l-23 22"/><path d="M1006 280h70l29 33"/><path d="M825 86h-55l-26-28"/><path d="M978 92h50l21-31"/></g>
+<g fill="#03e9cc"><circle cx="665" cy="183" r="4"/><circle cx="1140" cy="184" r="4"/><circle cx="705" cy="281" r="3"/><circle cx="1049" cy="61" r="4"/></g>
+<!-- abstract medical icon cards -->
+<g fill="#071c27" stroke="#10edac" stroke-width="2">
+<rect x="706" y="20" rx="15" width="66" height="66"/><rect x="1090" y="52" rx="15" width="65" height="65" stroke="#14cfff"/>
+<rect x="719" y="295" rx="15" width="63" height="63"/><rect x="1092" y="289" rx="15" width="63" height="63" stroke="#14cfff"/>
+</g>
+<path d="M737 35v36M719 53h36" stroke="#1afaad" stroke-width="7" stroke-linecap="round"/>
+<path d="M1105 84h36m-30-8v16m23-16v16" stroke="#11d3f7" stroke-width="4" stroke-linecap="round"/>
+<path d="M739 337c-17-8-19-20-12-29 17 0 30 14 27 31m-15-15c9-15 22-19 33-15 0 16-6 28-22 31" fill="none" stroke="#29f4a8" stroke-width="2.5"/>
+<circle cx="1123" cy="309" r="8" fill="none" stroke="#33e6ff" stroke-width="3"/><path d="M1105 342q18-35 36 0" fill="none" stroke="#33e6ff" stroke-width="3"/>
+<!-- glowing wireframe heart -->
+<path d="M913 307 C858 260 817 227 817 175 C817 129 870 116 913 160 C956 116 1008 129 1008 175 C1008 228 968 263 913 307Z" fill="url(#heart)" stroke="url(#neon)" stroke-width="3.7" filter="url(#glow)"/>
+<g stroke="url(#neon)" stroke-width=".9" opacity=".44" fill="none">
+<path d="M825 160 875 143 914 159 964 142 1001 158 983 215 941 255 914 301 883 256 840 215Z"/>
+<path d="M875 143 865 205 914 159 955 204 964 142M840 215l25-10 50 52 40-53 28 11M865 205l49 96 41-97M914 159l1 98"/>
+</g>
+<path d="M838 222h43l16-30 23 64 18-37h48" fill="none" stroke="#39ffcb" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+</svg>
