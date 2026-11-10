@@ -17,6 +17,12 @@ Atuo na área de **Tecnologia da Informação da MH Tinturaria**. O contato com 
 
 Meu foco técnico está no ecossistema **.NET**, em bancos de dados e na construção de software organizado, tanto para a web quanto para Windows.
 
+## Hackathon
+
+### [Hack Brasil](https://hackbrasil.com/) | Saúde e Bem-Estar
+
+Estou participando do **Hack Brasil**, na trilha de **Saúde e Bem-Estar**, como **orquestrador técnico** em uma equipe de quatro integrantes. Junto a outro orquestrador, sou responsável por planejar sprints, definir a arquitetura, distribuir tarefas e revisar Pull Requests antes da integração do código.
+
 ## Projetos em destaque
 
 ### [Nexo Gestão](https://github.com/ArthurKohlerDev/Sistema-ERP)
