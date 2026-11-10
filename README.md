@@ -17,7 +17,7 @@ Atuo na área de **Tecnologia da Informação da MH Tinturaria**. O contato com 
 
 Meu foco técnico está no ecossistema **.NET**, em bancos de dados e na construção de software organizado, tanto para a web quanto para Windows.
 
-## Hackathon
+## Eventos
 
 <div align="center">
 
