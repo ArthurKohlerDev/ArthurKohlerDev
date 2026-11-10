@@ -19,9 +19,13 @@ Meu foco técnico está no ecossistema **.NET**, em bancos de dados e na constru
 
 ## Hackathon
 
-### [Hack Brasil](https://hackbrasil.com/) | Saúde e Bem-Estar
+<div align="center">
 
-Estou participando do **Hack Brasil**, na trilha de **Saúde e Bem-Estar**, como **orquestrador técnico** em uma equipe de quatro integrantes. Junto a outro orquestrador, sou responsável por planejar sprints, definir a arquitetura, distribuir tarefas e revisar Pull Requests antes da integração do código.
+<a href="https://hackbrasil.com/"><img src="./assets/hack-brasil-2026.svg" width="100%" alt="Hack Brasil 2026 — Saúde e Bem-Estar" /></a>
+
+</div>
+
+Participando do **[Hack Brasil 2026](https://hackbrasil.com/)** na trilha de **Saúde e Bem-Estar**, desenvolvendo em equipe uma solução tecnológica para desafios reais.
 
 ## Projetos em destaque
 
