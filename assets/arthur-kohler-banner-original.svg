@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-label="Arthur Kohler — Desenvolvimento de Software: sistemas corporativos, aplicações desktop e jogos 3D">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090F12"/>
+      <stop offset="0.52" stop-color="#101B1B"/>
+      <stop offset="1" stop-color="#0B1514"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="74%" cy="46%" r="55%">
+      <stop offset="0" stop-color="#1D684C" stop-opacity=".33"/>
+      <stop offset=".55" stop-color="#154735" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#0B1514" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FB950"/>
+      <stop offset="1" stop-color="#58D697"/>
+    </linearGradient>
+    <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#3D7961" opacity=".24"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity=".26"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="360" fill="url(#back)"/>
+  <rect width="1400" height="360" fill="url(#aura)"/>
+  <rect x="780" y="0" width="620" height="360" fill="url(#dots)"/>
+  <path d="M0 344H1400" stroke="#2B614A" stroke-width="1" opacity=".5"/>
+  <path d="M0 0H1400" stroke="#244737" stroke-width="1" opacity=".65"/>
+  <path d="M30 0V360" stroke="#2D4F42" opacity=".28"/>
+  <path d="M725 0V360" stroke="#2D4F42" opacity=".18"/>
+  <path d="M0 0h150" stroke="url(#edge)" stroke-width="5"/>
+
+  <!-- Signature emblem: geometric monogram, distinct from the reference banner. -->
+  <g transform="translate(76 42)">
+    <rect x="0" y="0" width="58" height="58" rx="13" fill="#12251F" stroke="#317654" stroke-width="1.5"/>
+    <path d="M12 41l11-24 11 24m-18-10h15" fill="none" stroke="#E5F5ED" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M39 17v24m1-11 10-13m-10 13 10 11" fill="none" stroke="#3FB950" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="154" y="66" fill="#72C68F" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" letter-spacing="2.2">DESENVOLVIMENTO DE SOFTWARE</text>
+  <text x="155" y="92" fill="#889F98" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="2.3">C#  /  .NET  /  SOLUÇÕES REAIS</text>
+
+  <text x="73" y="190" fill="#F3F8F5" font-family="Segoe UI, Arial, sans-serif" font-size="77" font-weight="760" letter-spacing="1.2">ARTHUR</text>
+  <text x="74" y="275" fill="url(#edge)" font-family="Segoe UI, Arial, sans-serif" font-size="81" font-weight="780" letter-spacing="2">KOHLER</text>
+  <rect x="76" y="300" width="8" height="8" rx="2" fill="#3FB950"/>
+  <text x="99" y="309" fill="#B6C8BD" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.15">BACKEND  •  DESKTOP  •  GAME DEV</text>
+
+  <!-- Unique modular dashboard motif: three practice areas, not copied line art. -->
+  <g filter="url(#shadow)">
+    <rect x="865" y="34" width="463" height="291" rx="19" fill="#101D1B" stroke="#2B5542" stroke-width="1.4"/>
+  </g>
+  <rect x="882" y="51" width="429" height="34" rx="10" fill="#172A23"/>
+  <circle cx="903" cy="68" r="4" fill="#3FB950"/>
+  <text x="918" y="74" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" fill="#B8D6C2" letter-spacing="2.5">ÁREAS DE ATUAÇÃO</text>
+  <text x="1291" y="74" text-anchor="end" font-family="Consolas, monospace" font-size="13" fill="#5D9875">01 / 03</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="882" y="99" width="429" height="58" rx="10" fill="#14251E" stroke="#254935"/>
+    <rect x="896" y="110" width="40" height="36" rx="8" fill="#1B3929"/>
+    <text x="916" y="135" text-anchor="middle" font-family="Consolas, monospace" font-size="20" font-weight="700" fill="#62D884">{ }</text>
+    <text x="950" y="123" font-size="18" font-weight="700" fill="#EDF5F0">Sistemas corporativos</text>
+    <text x="950" y="144" font-size="13" letter-spacing=".6" fill="#90AD9C">Web • Integrações • Dados</text>
+    <rect x="1282" y="119" width="11" height="11" rx="3" fill="#3FB950" opacity=".65"/>
+
+    <rect x="882" y="166" width="429" height="58" rx="10" fill="#14251E" stroke="#254935"/>
+    <rect x="896" y="177" width="40" height="36" rx="8" fill="#1B3929"/>
+    <rect x="906" y="184" width="20" height="14" rx="2" fill="none" stroke="#62D884" stroke-width="1.8"/>
+    <path d="M913 202h7m-3.5-4v4" stroke="#62D884" stroke-width="1.8"/>
+    <text x="950" y="190" font-size="18" font-weight="700" fill="#EDF5F0">Aplicações Windows</text>
+    <text x="950" y="211" font-size="13" letter-spacing=".6" fill="#90AD9C">WPF • WinForms • Ferramentas</text>
+    <rect x="1282" y="186" width="11" height="11" rx="3" fill="#3FB950" opacity=".65"/>
+
+    <rect x="882" y="233" width="429" height="58" rx="10" fill="#14251E" stroke="#254935"/>
+    <rect x="896" y="244" width="40" height="36" rx="8" fill="#1B3929"/>
+    <path d="M905 268l11-18 11 18-11 5z M911 261h10" fill="none" stroke="#62D884" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="950" y="257" font-size="18" font-weight="700" fill="#EDF5F0">Jogos e simulação 3D</text>
+    <text x="950" y="278" font-size="13" letter-spacing=".6" fill="#90AD9C">Unity • C# • Física</text>
+    <rect x="1282" y="253" width="11" height="11" rx="3" fill="#3FB950" opacity=".65"/>
+  </g>
+</svg>
