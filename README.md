@@ -48,6 +48,16 @@ com foco em simplificar a gestão e as operações do dia a dia.
 
 [Conhecer o VENDRA e visualizar suas telas](https://github.com/ArthurKohlerDev/vendra-showcase)
 
+<div align="center">
+  <a href="https://github.com/ArthurKohlerDev/vendra-showcase">
+    <img
+      src="https://raw.githubusercontent.com/ArthurKohlerDev/vendra-showcase/main/assets/screenshots/dashboard.png"
+      width="85%"
+      alt="Dashboard do VENDRA — Sistema de Gestão Comercial"
+    />
+  </a>
+</div>
+
 ---
 
 ### [Nexo Gestão](https://github.com/ArthurKohlerDev/Sistema-ERP)
