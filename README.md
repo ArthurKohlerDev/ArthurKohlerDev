@@ -18,9 +18,13 @@ Por meio da **Kohler System**, apresento meus produtos e projetos comerciais, co
 
 ## Sobre mim
 
-Atuo na área de **Tecnologia da Informação da MH Tinturaria**. O contato com processos produtivos e necessidades dos usuários orienta meu interesse por sistemas corporativos, integração de dados e automação.
+Atuo na área de **Tecnologia da Informação da MH Tinturaria**, onde adquiro experiência com processos industriais, sistemas corporativos, integração de dados e automação.
 
-Meu foco técnico está no ecossistema **.NET**, em bancos de dados e na construção de software organizado, tanto para a web quanto para Windows.
+Além da atuação profissional, desenvolvo soluções próprias por meio da **Kohler System**, com foco em sistemas de gestão comercial, aplicações desktop e ferramentas que simplificam processos.
+
+Minha principal especialidade é o ecossistema **C# e .NET**, trabalhando com desenvolvimento web e desktop, bancos de dados, arquitetura de software e testes automatizados.
+
+Busco desenvolver soluções que combinem **funcionalidade, confiabilidade e facilidade de uso**.
 
 ## Eventos
 
