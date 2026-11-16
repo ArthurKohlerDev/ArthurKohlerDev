@@ -29,9 +29,32 @@ Participando do **[Hack Brasil 2026](https://hackbrasil.com/)** na trilha de **S
 
 ## Projetos em destaque
 
+### [VENDRA — Sistema de Gestão Comercial](https://github.com/ArthurKohlerDev/vendra-showcase)
+
+**Produto desenvolvido pela Kohler System**
+
+Sistema desktop para Windows, desenvolvido para pequenos comércios,
+com foco em simplificar a gestão e as operações do dia a dia.
+
+- Controle de estoque e movimentações.
+- Vendas, caixa e emissão de comprovantes.
+- Gerenciamento de rifas, reservas e pagamentos.
+- Sorteios, premiações e controle de retiradas.
+- Integração opcional com grupos do WhatsApp.
+
+**Tecnologias:** C#, .NET 8, WPF e Firebird 3.0.
+
+**Status:** Em preparação para implantação comercial.
+
+[Conhecer o VENDRA e visualizar suas telas](https://github.com/ArthurKohlerDev/vendra-showcase)
+
+---
+
 ### [Nexo Gestão](https://github.com/ArthurKohlerDev/Sistema-ERP)
 
 Projeto fictício de portfólio para gestão comercial, com caixa/PDV, estoque e rifas. Desenvolvido em **ASP.NET Core (.NET 8)**, **Entity Framework Core**, **MySQL** e **HTML/CSS/JavaScript**. O repositório documenta as funcionalidades, a arquitetura e a execução local.
+
+---
 
 ### [Semáforo Inteligente](https://github.com/ArthurKohlerDev/semaforo)
 
