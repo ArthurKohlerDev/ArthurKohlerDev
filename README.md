@@ -10,6 +10,7 @@ Por meio da **Kohler System**, apresento meus produtos e projetos comerciais, co
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurkohlerdev/)
+[![VENDRA](https://img.shields.io/badge/VENDRA-Conhecer%20o%20Produto-D4A843?style=for-the-badge&logo=windows11&logoColor=black)](https://github.com/ArthurKohlerDev/vendra-showcase)
 
 </div>
 
