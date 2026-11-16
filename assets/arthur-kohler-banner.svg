@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-label="Arthur Kohler — Desenvolvimento de Software: sistemas corporativos, aplicações desktop e jogos 3D">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-label="Arthur Kohler e Kohler System — desenvolvimento de software, aplicações e produtos digitais">
   <defs>
     <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#090F12"/>
@@ -76,4 +76,36 @@
     <text x="950" y="278" font-size="13" letter-spacing=".6" fill="#90AD9C">Unity • C# • Física</text>
     <rect x="1282" y="253" width="11" height="11" rx="3" fill="#3FB950" opacity=".65"/>
   </g>
+
+  <!-- Kohler System: vetor leve, com símbolo azul inspirado na identidade fornecida. -->
+  <g id="kohler-system-brand">
+    <path d="M503 241V320" fill="none" stroke="#3FB950" stroke-width="1.4" opacity=".7"/>
+    
+    <g aria-label="Símbolo Kohler System" transform="translate(542 245)">
+      <defs>
+        <linearGradient id="kohler-blue" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#16C7FF"/>
+          <stop offset=".52" stop-color="#168FF5"/>
+          <stop offset="1" stop-color="#0C56B4"/>
+        </linearGradient>
+        <linearGradient id="kohler-navy" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#145AC9"/>
+          <stop offset="1" stop-color="#062A65"/>
+        </linearGradient>
+      </defs>
+      <path d="M24 4H43V70H24Z" fill="url(#kohler-navy)"/>
+      <path d="M36 35L68 4H94L55 44L36 53Z" fill="url(#kohler-blue)"/>
+      <path d="M36 41L58 31L96 72H71Z" fill="url(#kohler-navy)"/>
+      <path d="M16 38H27L39 49L48 44" fill="none" stroke="#099FE9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 57H27L39 67H57" fill="none" stroke="#0D74DC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 20H27L39 35" fill="none" stroke="#16C7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="10" cy="20" r="5.8" fill="#11263D" stroke="#18BCFF" stroke-width="3"/>
+      <circle cx="10" cy="38" r="5.8" fill="#11263D" stroke="#0AA9F8" stroke-width="3"/>
+      <circle cx="10" cy="57" r="5.8" fill="#11263D" stroke="#116BDD" stroke-width="3"/>
+    </g>
+    <text x="640" y="288" fill="#EEF5F2" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="750">Kohler</text>
+    <text x="729" y="288" fill="#A8B8B4" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">System</text>
+    <text x="640" y="308" fill="#6FAE8A" font-family="Segoe UI, Arial, sans-serif" font-size="10.8" letter-spacing="1.35">SOLUÇÕES EM SOFTWARE</text>
+  </g>
+
 </svg>
