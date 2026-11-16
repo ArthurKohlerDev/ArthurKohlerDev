@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/arthur-kohler-banner.svg" width="100%" alt="Banner Arthur Kohler — desenvolvimento de software, sistemas corporativos, aplicações Windows e jogos 3D" />
+<img src="./assets/arthur-kohler-banner.svg" width="100%" alt="Arthur Kohler — desenvolvimento de software e Kohler System" />
 
-Sou desenvolvedor de software, estudante de **Sistemas de Informação** e profissional de TI no setor industrial.
+**Arthur Kohler** · Desenvolvedor C#/.NET · Criador da **Kohler System**.
 
-Desenvolvo **sistemas comerciais, aplicações desktop e soluções web** voltadas à resolução de problemas reais.
+Sou estudante de **Sistemas de Informação** e profissional de TI no setor industrial. Desenvolvo **sistemas comerciais, aplicações desktop e soluções web** para problemas reais de negócio.
 
-Por meio da **Kohler System**, apresento meus produtos e projetos comerciais, combinando tecnologia, organização e foco nas necessidades de cada negócio.
+Por meio da **Kohler System**, apresento produtos como o [VENDRA](https://github.com/ArthurKohlerDev/vendra-showcase) e soluções que priorizam organização, confiabilidade e facilidade de uso.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurkohlerdev/)
