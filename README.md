@@ -2,7 +2,11 @@
 
 <img src="./assets/arthur-kohler-banner.svg" width="100%" alt="Banner Arthur Kohler — desenvolvimento de software, sistemas corporativos, aplicações Windows e jogos 3D" />
 
-Estudante de **Sistemas de Informação** e profissional de TI no setor industrial. Desenvolvo sistemas de gestão, aplicações web e desktop voltados a problemas reais de negócio.
+Sou desenvolvedor de software, estudante de **Sistemas de Informação** e profissional de TI no setor industrial.
+
+Desenvolvo **sistemas comerciais, aplicações desktop e soluções web** voltadas à resolução de problemas reais.
+
+Por meio da **Kohler System**, apresento meus produtos e projetos comerciais, combinando tecnologia, organização e foco nas necessidades de cada negócio.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ArthurKohlerDev-181717?style=for-the-badge&logo=github)](https://github.com/ArthurKohlerDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Kohler-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurkohlerdev/)
