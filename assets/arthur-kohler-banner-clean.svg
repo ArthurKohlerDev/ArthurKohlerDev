@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-label="Arthur Kohler, desenvolvedor de software e criador da Kohler System">
+  <defs>
+    <linearGradient id="bg-min" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#08110F"/><stop offset=".6" stop-color="#10201A"/><stop offset="1" stop-color="#0B1314"/>
+    </linearGradient>
+    <linearGradient id="green-min" x1="0" y1="0" x2="1">
+      <stop stop-color="#3FB950"/><stop offset="1" stop-color="#58D697"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="360" fill="url(#bg-min)"/>
+  <rect width="6" height="360" fill="url(#green-min)"/>
+  <path d="M48 52H1352" stroke="#254E3C" stroke-width="1"/>
+  <text x="76" y="92" fill="#78C899" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" letter-spacing="3">DESENVOLVIMENTO DE SOFTWARE</text>
+  <text x="73" y="191" fill="#F1F7F3" font-family="Segoe UI, Arial, sans-serif" font-size="79" font-weight="780" letter-spacing="1.2">ARTHUR</text>
+  <text x="76" y="278" fill="url(#green-min)" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="1.5">KOHLER</text>
+  <text x="78" y="314" fill="#A9C0B3" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="1.1">C#  ·  .NET  ·  BACKEND  ·  DESKTOP  ·  GAME DEV</text>
+  <path d="M680 87V294" stroke="#396C51" stroke-width="1.5"/>
+  <g transform="translate(722 112) scale(1.45)">
+    <defs>
+      <linearGradient id="blue-min" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#19C6FF"/><stop offset=".55" stop-color="#168EF4"/><stop offset="1" stop-color="#084FAA"/>
+      </linearGradient>
+    </defs>
+    <path d="M24 4H43V70H24Z" fill="#063576"/>
+    <path d="M36 35L68 4H94L55 44L36 53Z" fill="url(#blue-min)"/>
+    <path d="M36 41L58 31L96 72H71Z" fill="#0D469D"/>
+    <path d="M16 20H27L39 35 M16 38H27L39 49L48 44 M16 57H27L39 67H57" stroke="#13A6F6" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="10" cy="20" r="5.6" fill="#11263D" stroke="#13BFFF" stroke-width="3"/>
+    <circle cx="10" cy="38" r="5.6" fill="#11263D" stroke="#13A6F6" stroke-width="3"/>
+    <circle cx="10" cy="57" r="5.6" fill="#11263D" stroke="#0E73DD" stroke-width="3"/>
+  </g>
+  <text x="887" y="196" fill="#F1F7F3" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Kohler</text>
+  <text x="1022" y="196" fill="#B7C6BE" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="470">System</text>
+  <text x="891" y="229" fill="#8EB99D" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="1.5">SOFTWARE PARA PROBLEMAS REAIS</text>
+  <path d="M742 279H1310" stroke="#315B46" stroke-width="1"/>
+  <text x="890" y="310" fill="#B3C8B9" font-family="Segoe UI, Arial, sans-serif" font-size="15">Sistemas comerciais  ·  Aplicações Windows  ·  Integrações</text>
+</svg>
