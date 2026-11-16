@@ -127,6 +127,18 @@ Além dos projetos públicos, trabalho com aplicações desktop em **C# e WPF** 
 
 ---
 
+## Contato e projetos comerciais
+
+Desenvolvo sistemas e soluções tecnológicas por meio da **Kohler System**.
+
+Para conhecer meus projetos, solicitar demonstrações ou conversar sobre o desenvolvimento de uma solução para seu negócio:
+
+- **E-mail:** [arthurbkohler.dev@gmail.com](mailto:arthurbkohler.dev@gmail.com)
+- **WhatsApp:** [Entrar em contato](https://wa.me/5547992158335?text=Ol%C3%A1%21%20Conheci%20seus%20projetos%20pelo%20GitHub%20e%20gostaria%20de%20conversar%20sobre%20uma%20solu%C3%A7%C3%A3o.)
+- **LinkedIn:** [Arthur Kohler](https://www.linkedin.com/in/arthurkohlerdev/)
+
+---
+
 <div align="center">
 
 **Software para resolver problemas reais.**
